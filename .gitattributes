@@ -1,2 +1,3 @@
-app/* linguist-documentation=false
-app/* linguist-vendored
+linguist-detectable=false
+*.html linguist-detectable=false
+*.css linguist-detectable=false
