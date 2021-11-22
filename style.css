@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -20,12 +20,11 @@ html.dark {
 
 html.dark {
   background-color: #111;
-  color: -var(--primary-color);
+  color: var(--primary-color);
 }
 
 body {
-  /* background-color: #fff; */
-  font-family: 'Heebo', 'sans-serif';
+  font-family: 'Heebo', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +59,6 @@ body {
   position: relative;
   width: 200px;
   height: 200px;
-  /* background-color: #f0f0f0; */
 }
 
 .needle {
@@ -86,11 +84,11 @@ body {
 .needle.second {
   transform: translate(-50%, -100%) rotate(0deg);
   height: 100px;
-  background-color: #e7463c;
+  background-color: #e74c3c;
 }
 
 .center-point {
-  background-color: #e7463c;
+  background-color: #e74c3c;
   width: 10px;
   height: 10px;
   position: absolute;
@@ -114,7 +112,6 @@ body {
 
 .time {
   font-size: 60px;
-  color: var(--primary-color);
 }
 
 .date {
@@ -134,6 +131,6 @@ body {
   align-items: center;
   justify-content: center;
   line-height: 18px;
-  transition: 0.5s ease-in;
+  transition: all 0.5s ease-in;
   font-size: 12px;
 }
